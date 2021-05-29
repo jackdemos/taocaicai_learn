@@ -15,10 +15,10 @@
    // Adding a lock prefix to an instruction on MP machine
    #define LOCK_IF_MP(mp) "cmp $0, " #mp "; je 1f; lock; 1: " 
    ```
-最终实现:   
-   实现锁总线(多核的情况下加的 lock指令)
-   
-   lock comxchg 指令
+最终实现:
+
+      实现锁总线(多核的情况下加的 lock指令)
+      lock comxchg 指令
    
 硬件层:
    lock指令在执行后面指令的时候锁定一个北桥信号(不采用锁总线的方式)
