@@ -40,7 +40,7 @@ TcpCopy
 1. 请解释一下对象的创建过程?(半初始化)
 2. 加问DCL要不要加volatile问题? (指令重排)
 3. 对象在内存中的存储布局?(对象与数据存储不同)
-4. 对象关个体包括什么?(markword、classPointer、实例数据、synchronized锁信息)
+4. 对象头包括什么?(markword、classPointer、实例数据、synchronized锁信息)
 5. 对象怎么定位?(直接、间接)
 6. 对象怎么分配？（栈上 -线程本地-eden-old）
 7. Object o = new  Object()在内存中占用多少字节?(默认16)
