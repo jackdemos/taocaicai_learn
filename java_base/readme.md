@@ -26,3 +26,9 @@
 ###JVM TLAB概念 (Thread Local Allocation Buffer)
 - TLAB的全称是Thread Local Allocation Buffer，即线程本地分配缓存区，这是一个线程专用的内存分配区域
 
+
+#流量复制工具
+TcpCopy
+可以用来做环境压测试
+
+#阿里巴巴 arthas工具 (JVM排查工具)
