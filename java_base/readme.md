@@ -32,3 +32,17 @@ TcpCopy
 可以用来做环境压测试
 
 #阿里巴巴 arthas工具 (JVM排查工具)
+
+
+
+##美团追魂9连问
+关于Object o = new Object()
+1. 请解释一下对象的创建过程?(半初始化)
+2. 加问DCL要不要加volatile问题? (指令重排)
+3. 对象在内存中的存储布局?(对象与数据存储不同)
+4. 对象关个体包括什么?(markword、classPointer、synchronized锁信息)
+5. 对象怎么定位?(直接、间接)
+6. 对象怎么分配？（栈上 -线程本地-eden-old）
+7. Object o = new  Object()在内存中占用多少字节?(默认16)
+8. 为什么 hotspot不在使用C++对象来代表Java对象？
+9. Class对象是在堆还是在方法区?
