@@ -16,11 +16,13 @@
    #define LOCK_IF_MP(mp) "cmp $0, " #mp "; je 1f; lock; 1: " 
    ```
 最终实现:
-
-      实现锁总线(多核的情况下加的 lock指令)
-      lock comxchg 指令
+- 实现锁总线(多核的情况下加的 lock指令)
+- lock comxchg 指令
    
 硬件层:
    lock指令在执行后面指令的时候锁定一个北桥信号(不采用锁总线的方式)
 
+
+###JVM TLAB概念 (Thread Local Allocation Buffer)
+- TLAB的全称是Thread Local Allocation Buffer，即线程本地分配缓存区，这是一个线程专用的内存分配区域
 
