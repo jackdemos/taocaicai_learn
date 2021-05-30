@@ -11,6 +11,15 @@ import java.util.concurrent.TimeUnit;
 /**
  * @autor Oakley
  * @date 2021-05-31 04:57:54
+ * jps
+ * jmap
+ * top
+ * jstack
+ * jstat
+ *
+ * jmap -dump:format=b,file=20210231.hprof 10860
+ *
+ * 在线引流工具Tcpcopy原理
  */
 public class FullGC_Problem01 {
   private static class CardInfo {
