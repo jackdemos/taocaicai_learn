@@ -12,7 +12,7 @@ public class MyController {
     ModelAndView modelAndView = new ModelAndView();
     modelAndView.addObject("msg", "mvc.do");
     modelAndView.addObject("func", "index");
-    modelAndView.setViewName("test.jsp");
+    modelAndView.setViewName("test");
     return modelAndView;
   }
 
@@ -21,7 +21,7 @@ public class MyController {
     ModelAndView modelAndView = new ModelAndView();
     modelAndView.addObject("msg", "首页");
     modelAndView.addObject("func", "home");
-    modelAndView.setViewName("test.jsp");
+    modelAndView.setViewName("test");
     return modelAndView;
   }
 }
