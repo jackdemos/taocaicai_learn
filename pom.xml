@@ -11,6 +11,7 @@
     <modules>
         <module>java_base</module>
         <module>spring</module>
+        <module>spring-mvc</module>
     </modules>
 
     <properties>
