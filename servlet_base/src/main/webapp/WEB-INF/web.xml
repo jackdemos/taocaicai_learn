@@ -8,14 +8,14 @@
         <servlet-name>mtest</servlet-name>
         <servlet-class>com.taocaicai.servlet.MyServlet</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>mtest</servlet-name>
-        <url-pattern>/mtest</url-pattern>
-    </servlet-mapping>
     <servlet>
         <servlet-name>date</servlet-name>
         <servlet-class>com.taocaicai.servlet.Servlet2</servlet-class>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>mtest</servlet-name>
+        <url-pattern>/mtest</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>date</servlet-name>
         <url-pattern>/date</url-pattern>
