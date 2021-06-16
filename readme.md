@@ -1,9 +1,9 @@
-#面试大厂
+# 面试大厂
 https://osjobs.net/topk/
-# jdk源码下载、hotspot源码
+# OpenJDK源码下载
 http://hg.openjdk.java.net/
 
-#模块说明
+# 模块说明
 |项目名称|项目描述|描述人|
 |---|---|---|
 |taocaicai_learn|淘菜菜学习|Oakely|
