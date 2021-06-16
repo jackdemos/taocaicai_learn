@@ -1,5 +1,7 @@
 #面试大厂
 https://osjobs.net/topk/
+# jdk源码下载、hotspot源码
+http://hg.openjdk.java.net/
 
 #模块说明
 |项目名称|项目描述|描述人|
