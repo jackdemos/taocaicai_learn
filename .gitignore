@@ -26,4 +26,5 @@ hs_err_pid*
 /java_base/target/
 /spring/target/
 /spring-mvc/target/
+/servlet_base/target/
 /.idea/
