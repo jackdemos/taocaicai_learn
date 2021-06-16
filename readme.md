@@ -3,6 +3,13 @@ https://osjobs.net/topk/
 # OpenJDK源码下载
 http://hg.openjdk.java.net/
 
+# 国内maven仓库
+http://mvn.coderead.cn/
+
+# 学习参考
+https://coderead.cn/
+
+
 # 模块说明
 |项目名称|项目描述|描述人|
 |---|---|---|
