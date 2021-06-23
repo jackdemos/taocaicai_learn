@@ -8,8 +8,7 @@ import com.taocaicai.design.pattern.dip.v2.Shop;
  * @version: V1.0.0
  * @description: TODO
  */
-public class DogShop implements Shop {
-  @Override
+public class DogShop {
   public void sell() {
     System.out.println("宠物店销售宠物用品");
   }

@@ -8,7 +8,7 @@ package com.taocaicai.design.pattern.dip.v2;
  */
 public class FoodShop implements Shop {
   @Override
-  public void sell() {
-    System.out.println("食品购物店销售食品");
+  public String sell() {
+    return "食品购物店销售食品";
   }
 }

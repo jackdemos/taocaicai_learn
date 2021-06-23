@@ -7,5 +7,5 @@ package com.taocaicai.design.pattern.dip.v2;
  * @description: TODO
  */
 public interface Shop {
-    public void sell();
+    public String sell();
 }
