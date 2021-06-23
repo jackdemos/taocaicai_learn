@@ -9,6 +9,8 @@ http://mvn.coderead.cn/
 # 学习参考
 https://coderead.cn/
 
+# computer science student
+http://computersciencestudent.com/
 
 # 模块说明
 |项目名称|项目描述|描述人|
