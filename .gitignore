@@ -29,4 +29,5 @@ hs_err_pid*
 /spring/target/
 /spring-mvc/target/
 /servlet_base/target/
+/java_design_pattern/target/
 /.idea/
