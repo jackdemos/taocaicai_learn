@@ -1,6 +1,4 @@
-package com.taocaicai.design.pattern.dip.v1;
-
-import com.taocaicai.design.pattern.dip.v2.Shop;
+package com.taocaicai.design.pattern.principle.dip.v1;
 
 /**
  * @author: Oakley

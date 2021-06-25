@@ -1,4 +1,4 @@
-package com.taocaicai.design.pattern.ocp;
+package com.taocaicai.design.pattern.principle.ocp;
 
 /**
  * @author: Oakley

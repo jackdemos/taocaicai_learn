@@ -1,4 +1,4 @@
-package com.taocaicai.design.pattern.Liskov.v2;
+package com.taocaicai.design.pattern.principle.Liskov.v2;
 
 /**
  * @author: Oakley
