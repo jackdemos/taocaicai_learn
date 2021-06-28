@@ -1,0 +1,15 @@
+package com.taocaicai.design.pattern.structural.composite.v1;
+
+/**
+ * @author Oakley
+ * @version 1.0.0.0
+ * @created 2021-06-29 06:20:6:20
+ * @description TODO
+ */
+
+public interface Component {
+    void add(Component c);
+    void remove(Component c);
+    Component getChild(int i);
+    void operation();
+}
