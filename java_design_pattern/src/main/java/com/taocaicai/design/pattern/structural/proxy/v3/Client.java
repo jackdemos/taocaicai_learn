@@ -10,9 +10,9 @@ import java.lang.reflect.Proxy;
  * @description TODO
  */
 public class Client {
+  static AbstractSubject subject = null;
+  static InvocationHandler invocationHandler = null;
   public static void main(String[] args) {
-    AbstractSubject subject = null;
-    InvocationHandler invocationHandler = null;
     invocationHandler = new DynamicProxy(new RealSubject2());
 
     subject =
