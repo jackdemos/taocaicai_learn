@@ -2,13 +2,13 @@
 https://osjobs.net/topk/
 # OpenJDK源码下载
 http://hg.openjdk.java.net/
-
 # 国内maven仓库
 http://mvn.coderead.cn/
-
 # 学习参考
 https://coderead.cn/
 
+#Jrebel+XRebel激活地址
+http://jrebel.cicoding.cn/4B068EB5-0941-4645-1E98-FC077D530A61
 # computer science student
 http://computersciencestudent.com/
 
