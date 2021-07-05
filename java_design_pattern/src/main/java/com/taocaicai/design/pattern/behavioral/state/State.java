@@ -6,6 +6,6 @@ package com.taocaicai.design.pattern.behavioral.state;
  * @created 2021-07-05 17:07:47
  * @description TODO
  */
-public interface State {
-    void Handle(Context context);
+public abstract class State {
+   public abstract void Handle(Context context);
 }
