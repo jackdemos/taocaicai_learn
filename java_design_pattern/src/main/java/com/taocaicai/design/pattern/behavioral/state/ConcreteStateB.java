@@ -4,7 +4,7 @@ package com.taocaicai.design.pattern.behavioral.state;
  * @author Oakley
  * @version 1.0.0.0
  * @created 2021-07-05 17:09:42
- * @description TODO
+ * @description 状态B
  */
 public class ConcreteStateB extends State {
   @Override
