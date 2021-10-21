@@ -17,6 +17,7 @@ public class ConcreteDecorator extends Decorator {
     addedFunction();
   }
 
+  /*增加的新功能*/
   public void addedFunction() {
     System.out.println("穿了一件红色新衣服");
   }
