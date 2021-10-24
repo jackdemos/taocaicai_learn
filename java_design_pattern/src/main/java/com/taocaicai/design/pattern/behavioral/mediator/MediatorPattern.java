@@ -5,7 +5,7 @@ package com.taocaicai.design.pattern.behavioral.mediator;
  * @author Oakley
  * @created 2021-10-24 13:37:13:37
  * @package com.taocaicai.design.pattern.behavioral.mediator
- * @description TODO
+ * @description
  * 1、抽象中介者（Mediator）角色：它是中介者的接口，提供了同事对象注册与转发同事对象信息的抽象方法。 具体中介者（Concrete
  * 2、Mediator）角色：实现中介者接口，定义一个 List 来管理同事对象，协调各个同事角色之间的交互关系，因此它依赖于同事角色。
  * 3、抽象同事类（Colleague）角色：定义同事类的接口，保存中介者对象，提供同事对象交互的抽象方法，实现所有相互影响的同事类的公共功能。
